@@ -1,0 +1,15 @@
+#Your bacha's mark is more important, Nhi to Sharma ji ka Ladka agee nikal jayega . Jaldi Check kar 
+# Here x takes the input the engine and int function just type casting the value to integer type
+x=int(input("Bete ka mark dal ="))
+# If else logic for various condition depending upon the requirements
+if x>=90:
+    print("Your bacha is talented got A+")
+elif x>=80 and x<90:
+    print("Your bacha is nice, don't wory woh fodega , usko A grade mila ")
+elif x>=70 and x<80:
+    print("Your bacha is good, thoda dhyan de usko, B+ grade laya hai")
+elif x>=60 and x<70:
+    print("Your bacha is normal, sudhar le abhi time hai, B grade kisko pasand hai")
+elif x<60:
+    print("Tera beta gadha hai, Sharma ji ke ladki usse bhi achi hai, bap ka ijjat duba diya, c for chutiya")
+print("Bye!")
